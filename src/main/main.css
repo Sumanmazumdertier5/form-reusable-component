@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    align-items: flex-start;
+}
+.dashboardLeft{
+    /* width: 15%; */
+    background-color: #ccc;
+    height: 100vh;
+    flex: 0 0 20%;
+}
+.dashboardRight{
+    padding: 1% 5%;
+    flex: 0 0 80%;
+    box-sizing: border-box;
+}
