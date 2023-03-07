@@ -64,6 +64,15 @@ const Form = () => {
                         { check: Validators.required, message: 'This field is required' }
                     ]}
                     onChange={mobileHandleChange('number')} />
+                <InputField
+                    label={'Enter your Message'}
+                    value={phone}
+                    type='textarea'
+                    placeholder='Enter your Message'
+                    validators={[
+                        { check: Validators.required, message: 'This field is required' }
+                    ]}
+                    onChange={mobileHandleChange('number')} />
                 
             </React.Fragment>
         )
